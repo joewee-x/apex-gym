@@ -1,53 +1,78 @@
-import heroImg from '../img/hero.avif'
+import heroImg from "../img/hero.avif";
 
 const Hero = () => {
   return (
-    <div>
-      <div className="mt-30 grid grid-cols-2 gap-20 mx-20">
-        <div className=''>
-          <p className="text-[#5F755F] font-bold text-xl">A considered way to move</p>
-          <p className="text-[#173126] font-bold text-3xl py-5">
+    <section className="pt-28 sm:pt-32 lg:pt-30">
+      <div className="mx-auto grid grid-cols-1 items-center gap-10 px-4 sm:px-6 md:px-8 lg:grid-cols-2 lg:gap-12 lg:px-12 ">
+        
+        <div>
+          <p className="text-base font-bold text-[#5F755F] sm:text-lg lg:text-xl">
+            A considered way to move
+          </p>
+
+          <h1 className="py-4 text-3xl font-bold text-[#173126] sm:text-4xl lg:text-3xl">
             Strength for the life you want to lead.
-          </p>
-          <p className="w-110 leading-8">
-            Stillform is a welcoming space for thoughtful training, restorative
-            movement, and steady progress—at your own pace.
+          </h1>
+
+          <p className="max-w-xl text-sm leading-7 text-gray-700 sm:text-base sm:leading-8">
+            Stillform is a welcoming space for thoughtful training,
+            restorative movement, and steady progress—at your own pace.
           </p>
 
-          <div className="flex gap-4 items-center text-sm my-10">
-                <button className="h-12 rounded-full bg-[#173126] px-5 font-bold text-[#f8f5ee] lg:px-7">
-                    Start your journey
-                </button>
-                <button className="mr-3 h-12 rounded-full border border-[#173126] px-5 font-bold text-[#173126] lg:px-7">
-                    Explore Pogrammes
-                </button>
+          <div className="my-8 flex flex-col gap-3 text-sm sm:my-10 sm:flex-row sm:items-center sm:gap-4">
+            <button className="h-12 w-full rounded-full bg-[#173126] px-5 font-bold text-[#f8f5ee] sm:w-auto lg:px-7">
+              Start your journey
+            </button>
+
+            <button className="h-12 w-full rounded-full border border-[#173126] px-5 font-bold text-[#173126] sm:w-auto lg:px-7">
+              Explore Programmes
+            </button>
           </div>
-          <hr  className="my-5"/>
 
-          <div className="flex gap-10 pb-10">
+          <hr className="my-5 border-gray-300" />
+
+          <div className="grid grid-cols-3 gap-6 pb-8 sm:gap-8">
+            
             <div>
-                <p className='text-[#173126] font-bold text-2xl'>12+</p>
-                <p className='text-[#587158]'>weekly class styles</p>
+              <p className="text-xl font-bold text-[#173126] sm:text-2xl">
+                12+
+              </p>
+              <p className="text-sm text-[#587158]">
+                weekly class styles
+              </p>
             </div>
 
             <div>
-                <p className='text-[#173126] font-bold text-2xl'>1:8</p>
-                <p className='text-[#587158]'>thoughtful coach ratio</p>
+              <p className="text-xl font-bold text-[#173126] sm:text-2xl">
+                1:8
+              </p>
+              <p className="text-sm text-[#587158]">
+                thoughtful coach ratio
+              </p>
             </div>
 
             <div>
-                <p className='text-[#173126] font-bold text-2xl'>7 days</p>
-                <p className='text-[#587158]'>of flexible movement</p>
+              <p className="text-xl font-bold text-[#173126] sm:text-2xl">
+                7 days
+              </p>
+              <p className="text-sm text-[#587158]">
+                flexible movement
+              </p>
             </div>
+
           </div>
         </div>
 
-        <div className='bg-white h-115 p-3 flex items-center rounded-2xl'>
-            <img className='w-full h-109 m-auto rounded-2xl object-cover' src={heroImg} alt="" />
+        <div className="w-full rounded-2xl bg-white p-2 sm:p-3">
+          <img src={heroImg} alt=""
+            className="h-87.5 w-full rounded-xl object-cover sm:h-112.5 md:h-125 lg:h-125"
+          />
         </div>
+
       </div>
-    </div>
+    </section>
   );
 };
 
 export default Hero;
+
