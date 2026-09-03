@@ -4,6 +4,7 @@ import Practice from '../Components/Practice'
 import OurApproach from '../Components/OurApproach'
 import Membership from '../Components/Membership'
 import WeeklyRythm from '../Components/WeeklyRythm'
+import Testimonials from '../Components/Testimonials'
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home = () => {
         <OurApproach />
         <Membership />
         <WeeklyRythm />
+        <Testimonials />
       
     </div>
   )

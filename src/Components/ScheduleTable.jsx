@@ -46,7 +46,7 @@ const ScheduleTable = ({intensityActiveButton, classActiveButton}) => {
 
   return (
     <div>
-      <div className='mx-4 sm:mx-8 md:mx-12 overflow-x-auto'>
+      <div className='mx-4 sm:mx-8 md:mx-12 overflow-x-auto mb-20'>
             <table className='w-full min-w-200 border-collapse rounded-2xl border border-[#d9ddd4]'> 
                 <thead className='text-center bg-[#eef2eb] h-15'>
                     <tr className='text-left pr-2 border-b border-[#d9ddd4]'>
