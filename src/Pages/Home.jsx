@@ -7,6 +7,7 @@ import WeeklyRythm from '../Components/WeeklyRythm'
 import Testimonials from '../Components/Testimonials'
 import Contact from '../Components/Contact'
 import { useState } from 'react'
+import Footer from '../Components/Footer'
 const Home = () => {
   const [bookingMessage, setBookingMessage] = useState('')
 
@@ -23,6 +24,7 @@ const Home = () => {
         <WeeklyRythm  onBook = {onBook}/>
         <Testimonials />
         <Contact bookingMessage = {bookingMessage} setBookingMessage ={setBookingMessage} />
+        <Footer />
       
     </div>
   )
