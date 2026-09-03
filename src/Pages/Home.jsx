@@ -6,7 +6,13 @@ import Membership from '../Components/Membership'
 import WeeklyRythm from '../Components/WeeklyRythm'
 import Testimonials from '../Components/Testimonials'
 import Contact from '../Components/Contact'
+import { useState } from 'react'
 const Home = () => {
+  const [bookingMessage, setBookingMessage] = useState('')
+
+  const onBook = (className) => {
+    setBookingMessage(`Hello i want to book ${className} session`)
+  }
   return (
     <div>
         <Nav />
@@ -14,9 +20,9 @@ const Home = () => {
         <Practice />
         <OurApproach />
         <Membership />
-        <WeeklyRythm />
+        <WeeklyRythm  onBook = {onBook}/>
         <Testimonials />
-        <Contact />
+        <Contact bookingMessage = {bookingMessage} setBookingMessage ={setBookingMessage} />
       
     </div>
   )

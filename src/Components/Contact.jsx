@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const Contact = ({bookingMessage, setBookingMessage}) => {
   return (
     <div>
         <div className='flex flex-col lg:flex-row lg:justify-between gap-10 px-5 sm:px-8 md:px-12 py-12 sm:py-16 md:py-20'>
@@ -66,9 +66,11 @@ const Contact = () => {
                                     How can we help?
                                 </label>
                                 <textarea 
-                                    className='border border-[#CFD8CC] h-30 rounded-2xl w-full' 
+                                    className='border border-[#CFD8CC] h-30 rounded-2xl w-ful p-5' 
                                     name="" 
                                     id=""
+                                    value={bookingMessage}
+                                    onChange={(e) => setBookingMessage(e.target.value)}
                                 ></textarea>
                             </div>
                         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import ScheduleTable from './ScheduleTable'
 
-const WeeklyRythm = () => {
+const WeeklyRythm = ({onBook}) => {
 
     const [classActiveButton, setClassActiveButton] = useState("All")
     const [intensityActiveButton, setIntensityActiveButton] = useState("All")
@@ -84,6 +84,7 @@ const WeeklyRythm = () => {
         <ScheduleTable 
             classActiveButton={classActiveButton} 
             intensityActiveButton={intensityActiveButton} 
+            onBook = {onBook}
         />
 
       </div>

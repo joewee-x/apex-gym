@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ScheduleTable = ({intensityActiveButton, classActiveButton}) => {
+const ScheduleTable = ({intensityActiveButton, classActiveButton, onBook}) => {
     const classes = [
         {
             day: "Monday",
@@ -76,7 +76,7 @@ const ScheduleTable = ({intensityActiveButton, classActiveButton}) => {
                                     <p>{class1.intensity}</p>
                                 </td>
                                 <td>
-                                    <button className='rounded-full border h-10 w-20 cursor-pointer'>Book</button>
+                                    <button className='rounded-full border h-10 w-20 cursor-pointer' onClick={()=>onBook(class1.name)}>Book</button>
                                 </td>
 
                             </tr>
