@@ -5,6 +5,7 @@ import OurApproach from '../Components/OurApproach'
 import Membership from '../Components/Membership'
 import WeeklyRythm from '../Components/WeeklyRythm'
 import Testimonials from '../Components/Testimonials'
+import Contact from '../Components/Contact'
 const Home = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Home = () => {
         <Membership />
         <WeeklyRythm />
         <Testimonials />
+        <Contact />
       
     </div>
   )
