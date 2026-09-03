@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconify-react/material-symbols": "^1.0.32",
+    "@iconify/react": "^6.0.2",
     "@tailwindcss/vite": "^4.3.3",
+    "iconify-icon": "^3.0.2",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-icons": "^5.7.0",

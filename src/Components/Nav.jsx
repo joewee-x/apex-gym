@@ -6,7 +6,7 @@ const Nav = () => {
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full bg-[#f8f5ee] shadow-sm">
-      <div className="flex h-15 md:h-20 w-full items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20">
+      <div className="flex h-15 md:h-20 w-full items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12 xl:px-11">
         <div className="text-xl font-bold text-[#173126] sm:text-2xl">
           ApexGym
         </div>
