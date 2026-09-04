@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = ({bookingMessage, setBookingMessage}) => {
   return (
-    <div>
+    <div id='contact'>
         <div className='flex flex-col lg:flex-row lg:justify-between gap-10 px-5 sm:px-8 md:px-12 py-12 sm:py-16 md:py-20'>
             <div className='w-full lg:flex-1'>
                 <p className="text-base font-bold text-[#5F755F] sm:text-lg lg:text-xl">

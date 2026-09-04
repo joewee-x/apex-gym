@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 
 const OurApproach = () => {
   return (
-    <div>
+    <div id='about'>
       <div className='flex flex-col lg:flex-row gap-10 my-20 lg:my-30 px-5 sm:px-8 md:px-12'>
         <div className='flex gap-3 sm:gap-5 w-full lg:w-auto'>
           <div className='w-1/2 sm:w-auto'>

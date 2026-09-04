@@ -8,7 +8,7 @@ const WeeklyRythm = ({onBook}) => {
     const [intensityActiveButton, setIntensityActiveButton] = useState("All")
 
   return (
-    <div>
+    <div id='schedule'>
       <div>
         <div className='flex flex-col lg:flex-row lg:justify-between gap-10 px-5 sm:px-8 md:px-12 my-15 sm:my-20'>
 

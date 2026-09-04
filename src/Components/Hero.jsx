@@ -2,7 +2,7 @@ import heroImg from "../img/hero.avif";
 
 const Hero = () => {
   return (
-    <section className="pt-28 sm:pt-32 lg:pt-30">
+    <section className="pt-28 sm:pt-32 lg:pt-30" id="home">
       <div className="mx-auto grid grid-cols-1 items-center gap-10 px-4 sm:px-6 md:px-8 lg:grid-cols-2 lg:gap-12 lg:px-12 ">
         
         <div>

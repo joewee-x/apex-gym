@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react';
 
 const Membership = () => {
   return (
-    <div>
+    <div id='membership'>
       <div className='bg-[#173126] min-h-170 w-full px-5 sm:px-8 md:px-12 pt-12 sm:pt-16 md:pt-20'>
         <p className='text-[#F8F5EE] font-bold text-lg sm:text-xl'>Membership</p>
 
