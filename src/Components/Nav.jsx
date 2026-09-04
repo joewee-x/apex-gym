@@ -27,7 +27,7 @@ const Nav = () => {
           </button> */}
 
           <button className="h-10 rounded-full bg-[#173126] px-5 font-bold text-[#f8f5ee] lg:px-7">
-            Book a Tour
+            <a href="#contact">Book a Tour</a>
           </button>
         </div>
 
@@ -41,8 +41,8 @@ const Nav = () => {
       {menuOpen && (
         <div className="border-t border-[#173126]/10 bg-[#f8f5ee] px-6 py-5 md:hidden">
           <ul className="flex flex-col gap-5 text-sm font-medium text-[#173126]">
-            <li>Programme</li>
-            <li>About</li>
+            <li><a href="#programme">Programme</a></li>
+            <li><a href="#about">About</a></li>
             <li>Membership</li>
             <li>Schedule</li>
             <li>Contact</li>

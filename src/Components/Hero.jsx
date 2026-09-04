@@ -21,7 +21,7 @@ const Hero = () => {
 
           <div className="my-8 flex flex-col gap-3 text-sm sm:my-10 sm:flex-row sm:items-center sm:gap-4">
             <button className="h-12 w-full rounded-full bg-[#173126] px-5 font-bold text-[#f8f5ee] sm:w-auto lg:px-7">
-              Start your journey
+              <a href="#membership">Start your journey</a>
             </button>
 
             <button className="h-12 w-full rounded-full border border-[#173126] px-5 font-bold text-[#173126] sm:w-auto lg:px-7">
